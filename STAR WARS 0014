@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class bintang {
     
      public static void main(String[] args){
-         //Magdalena rambulangi Informatika c
+         //Magdalena rambulangi Informatika B
          Scanner sc = new Scanner(System.in);
          System.out.println("input");
          int in =sc.nextInt();
