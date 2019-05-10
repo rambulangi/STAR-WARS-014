@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class STARWARS09 {
     
         public static void main(String[] args){
-        //Magdalena Rambulangi informatika B
+        //Magdalena Rambulangi informatika B 2016
         Scanner Al = new Scanner(System.in);
          System.out.println("input");
          int in =Al.nextInt();
