@@ -1,0 +1,30 @@
+package soal.bintang;
+
+import java.util.Scanner;
+
+
+public class STARWARS12 {
+    
+     public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+         System.out.println("input");
+         int in =sc.nextInt();
+         System.out.println("output");
+         //perulangan untuk  menampilkan n baris segitiga sama kaki terbalik X
+            for(int i=0; i<in; i++)  //untuk perulangan baris 
+            {
+                for(int k=1; k< i; k++)//untuk perulangan kolom
+                {
+                    System.out.print("  ");
+                }
+            {
+                for(int j =0; j<in - i; j++){
+                    System.out.print(" X ");
+                }
+                System.out.println( );
+                }       
+         }
+         
+     }                            
+            
+}
