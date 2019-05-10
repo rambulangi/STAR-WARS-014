@@ -13,7 +13,7 @@ public class STARWARS12 {
          //perulangan untuk  menampilkan n baris segitiga sama kaki terbalik X
             for(int i=0; i<in; i++)  //untuk perulangan baris 
             {
-                for(int k=1; k< i; k++)//untuk perulangan kolom
+                for(int j=1; j<in + i; j++)//untuk perulangan kolom
                 {
                     System.out.print("  ");
                 }
