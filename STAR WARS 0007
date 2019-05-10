@@ -1,0 +1,31 @@
+package soal.bintang;
+
+import java.util.Scanner;
+
+
+public class STARWARS07 {
+    
+    public static void main(String[] args){
+        //Magdalena Rambulangi Informatika B 2016
+        Scanner sc = new Scanner(System.in);
+         System.out.println("input");
+         int in =sc.nextInt();
+         System.out.println("output");
+         //perulangan untuk menampilkan n baris segitiga X
+            for(int i=0; i<in; i ++)  //untuk perulangan baris 
+            {
+                for(int j=1; j<in; j++)//untuk perulangan kolom
+                {
+                    System.out.print("  ");                   
+                }
+            {
+                for(int j =0; j <=i; j++){
+                    System.out.print(" X ");
+                }
+                System.out.println( );
+                }       
+         }
+         
+     }                            
+             
+}
